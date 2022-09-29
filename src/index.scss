@@ -1,0 +1,25 @@
+:root {
+  --clr-teal: #00c1b5;
+  --clr-yellow: #ffbe00;
+  --clr-red: #e30512;
+  --clr-orange: #ff651a;
+  --clr-blue: #1d3fbb;
+  --clr-dark: #251d20;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
