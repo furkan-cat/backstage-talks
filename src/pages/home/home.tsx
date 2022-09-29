@@ -3,6 +3,8 @@ import { images } from "@/constants/index";
 import { calcWindowSize } from "src/helpers";
 import clsx from "clsx";
 import styles from "./home.module.scss";
+import Footer from "@/components/footer/footer";
+import Header from "@/components/header/header";
 
 const Home = () => {
   const [color, setColor] = useState<string | undefined>();
@@ -43,12 +45,13 @@ const Home = () => {
   return (
     <div className={styles.wrapper}>
       {images.map((item) => (
-        <section
-          key={item.id}
-          className={clsx(styles.imageContainer, styles[color ? color : ""])}
-        >
-          <img src={item.image} alt="image" className={styles.img} />
-        </section>
+        <div key={item.id} className={styles.container}>
+          <Header />
+          <section className={clsx(styles.imageContainer, styles[color ? color : ""])}>
+            <img src={item.image} alt="image" className={styles.img} />
+          </section>
+          <Footer />
+        </div>
       ))}
     </div>
   );

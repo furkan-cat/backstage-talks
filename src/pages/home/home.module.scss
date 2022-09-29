@@ -15,6 +15,10 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+.container {
+  position: relative;
+}
+
 .imageContainer {
   display: flex;
   justify-content: center;
