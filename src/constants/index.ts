@@ -1,31 +1,31 @@
-interface IMock {
+export interface IImages {
   id: string;
   image: string;
 }
 
-export const mock: IMock[] = [
+export const images: IImages[] = [
   {
     id: "1",
-    image: "../../public/images/1.png",
+    image: "/images/6.png",
   },
   {
     id: "2",
-    image: "../../public/images/2.png",
+    image: "/images/5.png",
   },
   {
     id: "3",
-    image: "../../public/images/3.png",
+    image: "/images/4.png",
   },
   {
     id: "4",
-    image: "../../public/images/4.png",
+    image: "/images/3.png",
   },
   {
     id: "5",
-    image: "../../public/images/5.png",
+    image: "/images/2.png",
   },
   {
     id: "6",
-    image: "../../public/images/6.png",
+    image: "/images/1.png",
   },
 ];
