@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className={styles.wrapper}>
       <img src="/images/logo.png" alt="ss" className={styles.logo} />
-      <a>info@backstagetalks.com</a>
+      <a>furi544@gmail.com</a>
     </div>
   );
 };

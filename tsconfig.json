@@ -20,7 +20,10 @@
       "@/constants/*": ["src/constants/*"],
       "@/components/*": ["src/components/*"],
       "@/helpers/*": ["src/helpers/*"],
-      "@/pages/*": ["src/pages/*"]
+      "@/layout/*": ["src/layout/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/context/*": ["src/context/*"]
     }
   },
   "include": ["src", "**/*.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "*.scss"]
